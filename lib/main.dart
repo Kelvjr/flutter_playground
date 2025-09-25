@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/camera_screen.dart';
+import 'screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(home: CameraScreen());
+    return MaterialApp(home: HomeScreen());
   }
 }
