@@ -11,10 +11,10 @@ class GoogleBottomNav extends StatefulWidget {
 class _GoogleBottomNavState extends State<GoogleBottomNav> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       bottomNavigationBar: Container(
         color: Colors.black,
-        child: Padding(
+        child: const Padding(
           padding: EdgeInsets.symmetric(horizontal: 15, vertical: 20),
           child: GNav(
             backgroundColor: Colors.black,
